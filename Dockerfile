@@ -9,7 +9,7 @@ FROM node:latest
 LABEL maintainer="Moringa School <moringaschool.com>"
 
 # Install redis driver for node.js
-RUN npm install redis
+# RUN npm install redis
 
 # Copy the source code to the Docker image
 ADD composeHelper.js /myapp/composeHelper.js 
